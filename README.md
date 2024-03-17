@@ -517,7 +517,7 @@ ul {
     <br>
     <div id="accueil">
         <div class="video">
-            <video preload="auto" autoplay muted loop src="Users/clement/Desktop/HTML/Mon site/Websites/Site web template/Final teaser.mp4" type="video"></video>
+            <video preload="auto" autoplay muted loop src="https://github.com/nectar-concept/nectar-concept.github.io/blob/main/Se%CC%81quence%2003%2012.17.35.mp4" type="video"></video>
         </div>
     </div>
     <br>
@@ -557,7 +557,7 @@ ul {
     <br>
     <table>
         <tr>
-            <td><div class="object"><img src="Users/clement/Desktop/HTML/Mon site/Websites/Site web template/App React/React.Js.png"></div></td>
+            <td><div class="object"><img src="https://github.com/nectar-concept/nectar-concept.github.io/blob/main/Capture%20d%E2%80%99e%CC%81cran%202024-03-11%20a%CC%80%2011.59.59.png"></div></td>
             <td>
             <h3>Le design next generation</h3>
             <br>
@@ -757,7 +757,7 @@ ul {
                 <br>
                 <br>
                 <br>
-                <video width="960" height="540" controls poster="Users/clement/Desktop/HOME/Capture d’écran 2024-03-15 à 14.35.21.png">
+                <video width="960" height="540" controls poster="https://github.com/nectar-concept/nectar-concept.github.io/blob/main/Capture%20d%E2%80%99e%CC%81cran%202024-03-15%20a%CC%80%2014.35.21.png">
                 <source src="https://github.com/nectar-concept/nectar-concept.github.io/blob/main/Design%20sans%20titre.mp4" type=video/mp4>
             </td>
                     <td>
@@ -773,7 +773,7 @@ ul {
                         <br>
                         <br>
                         <br>
-                    <video width="960" height="540" controls poster="Users/clement/Desktop/HOME/Capture d’écran 2024-03-15 à 14.34.10.png">
+                    <video width="960" height="540" controls poster="https://github.com/nectar-concept/nectar-concept.github.io/blob/main/Capture%20d%E2%80%99e%CC%81cran%202024-03-15%20a%CC%80%2006.55.37.png">
                     <source src="https://github.com/nectar-concept/nectar-concept.github.io/blob/main/zenly.mp4" type=video/mp4>
                 </td>
             </div>
@@ -782,11 +782,11 @@ ul {
     <table>
         <tr>
             <td>
-                <video width="960" height="540" controls poster="Users/clement/Desktop/HOME/Capture d’écran 2024-03-15 à 14.33.00.png">
+                <video width="960" height="540" controls poster="https://github.com/nectar-concept/nectar-concept.github.io/blob/main/Capture%20d%E2%80%99e%CC%81cran%202024-03-15%20a%CC%80%2014.33.00.png">
                 <source src="https://github.com/nectar-concept/nectar-concept.github.io/blob/main/Landscapes.mp4" type=video/mp4>
             </td>
             <td>
-                <video width="960" height="540" controls poster="/Users/clement/Desktop/HOME/Capture d’écran 2024-03-15 à 14.32.35.png">
+                <video width="960" height="540" controls poster="https://github.com/nectar-concept/nectar-concept.github.io/blob/main/Capture%20d%E2%80%99e%CC%81cran%202024-03-15%20a%CC%80%2014.32.35.png">
                 <source src="https://github.com/nectar-concept/nectar-concept.github.io/blob/main/oriental.mp4" type=video/mp4>
             </td>
             </div>
@@ -846,7 +846,7 @@ ul {
         <tr>
             <td><img src="Users/clement/Desktop/HTML/Mon site/Websites/Site web template/App React/Design sans titre.png"></td>
             <br>
-            <td><img src="Users/clement/Desktop/HTML/Mon site/Websites/Site web template/App React/Design sans titre1.png"></td>
+            <td></td>
         </tr>
     </table>
 <br>
