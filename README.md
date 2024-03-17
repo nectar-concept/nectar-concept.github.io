@@ -421,6 +421,7 @@ video {
     position: relative;
     border: none;
     background-color: black;
+	border-radius: 5%;
 }
 
 .starter {
@@ -507,12 +508,12 @@ ul {
 </head>
 <body>
     <div class="topnav">
-        <a href="#contact">Contact</a>
-        <a href="#devis">Devis</a>
-        <a href="#Ressources">Ressources</a>
-        <a href="#solutions">Solutions</a>
-        <a href="#services">Services</a>
-        <a class="active" href="#accueil">Accueil</a>
+        <a href="contact">Contact</a>
+        <a href="devis">Devis</a>
+        <a href="Ressources">Ressources</a>
+        <a href="solutions">Solutions</a>
+        <a href="services">Services</a>
+        <a class=active" href="#accueil">Accueil</a>
       </div>
     <br>
     <div id="accueil">
@@ -557,7 +558,7 @@ ul {
     <br>
     <table>
         <tr>
-            <td><div class="object"><img src="Capture d’écran 2024-03-11 à 11.59.59.png"></div></td>
+            <td><div class="object"><img src="Capture d’écran 2024-03-11 à 11.59.59.webp"></div></td>
             <td>
             <h3>Le design next generation</h3>
             <br>
@@ -583,12 +584,12 @@ ul {
             mettre à niveau vos systèmes et outils existants,proposer vos produits et services directement aux
             consommateurs,simplifier votre tunnel de vente en ligne et créer des visuels uniques. Bénéficiez des conseils
             de notre équipe,des services aux entreprises et de nos partenaires pour tirer plus rapidement profit de votre solution Nectar.</p></td>
-            <td><img src="0_F3Gi5iXlor4CCInA.gif"></td>
+            <td><video src="submit-new2-1439041881__1_.webm"></video></td>
         </tr>
     </table>
     <table>
         <tr>
-            <td><img src="1_X6MdPvKC_JnapInkGYObdQ.gif"></td>
+            <td><<video src=""1_X6MdPvKC_JnapInkGYObdQ.webm"></video></td>
             <td><h3>Favorisez l'agilité de votre entreprise</h3>
             <br>
             <p>Vous pouvez utiliser Nectar pour changer d'interface web, mais aussi pour optimiser vos processus de vente, mettre à
@@ -606,14 +607,14 @@ ul {
             <p>Les start-up font confiance à Nectar pour se lancer plus rapidement, évoluer plus facilement, faciliter le parcours
             de leurs clients et construire des outils simples à prendre en main afin de faire mieux avec moins. Utilisez nos solutions 
             sans code ou nécessitant peu de code, faciles à implémenter et suffisamment puissantes pour s'adapter parfaitement à vos besoins.</p></td>
-            <td><img src="1_kElFA8HLLSfKS8W2QJyrbQ.gif"></td> 
+            <td><video src=""1_kElFA8HLLSfKS8W2QJyrbQ.webm"></video></td> 
         </tr>
     </table>
 <br>
 <br>
     <table>
         <tr>
-            <td><img src="submit-new2-1439041881__1_.gif"></td>
+            <td><video src=""1_l07nC0xwRXzmIZFsKpbxyQ.webm"></video></td>
             <td><h3>Vous disposez de tout, à portée de main</h3>
             <br>
             <p>Nous designons votre site web et plus largement vos interfaces, de façon à ce que vous viviez une expérience unique lors de votre navigation.
@@ -757,7 +758,7 @@ ul {
                 <br>
                 <br>
                 <br>
-                <video width="960" height="540" controls poster="Capture d’écran 2024-03-15 à 14.35.21.png">
+                <video width="960" height="540" controls poster="Capture d’écran 2024-03-15 à 04.33.12.webp">
                 <source src="Design sans titre.mp4" type=video/mp4>
             </td>
                     <td>
@@ -773,7 +774,7 @@ ul {
                         <br>
                         <br>
                         <br>
-                    <video width="960" height="540" controls poster="Zenly.png">
+                    <video width="960" height="540" controls poster="Zenly.webp">
                     <source src="zenly.mp4" type=video/mp4>
                 </td>
             </div>
@@ -782,11 +783,11 @@ ul {
     <table>
         <tr>
             <td>
-                <video width="960" height="540" controls poster="Capture d’écran 2024-03-15 à 14.33.00.png">
+                <video width="960" height="540" controls poster="Capture d’écran 2024-03-15 à 10.24.41.webp">
                 <source src="Landscapes.mp4" type=video/mp4>
             </td>
             <td>
-                <video width="960" height="540" controls poster="Capture d’écran 2024-03-15 à 14.32.35.png">
+                <video width="960" height="540" controls poster="Capture d’écran 2024-03-15 à 14.19.45.webp">
                 <source src="oriental.mp4" type=video/mp4>
             </td>
             </div>
@@ -844,9 +845,9 @@ ul {
     </table>
     <table>
         <tr>
-            <td><img src="Design sans titre 06.52.34.png"></td>
+            <td><img src="Design sans titre 06.52.34.webp"></td>
             <br>
-            <td><img src="Design sans titre.png"></td>
+            <td><img src="Design sans titre.webp"></td>
         </tr>
     </table>
 <br>
@@ -969,7 +970,6 @@ ul {
 <div id="contact"></div>
     <iframe src="Footer.html" title="footer"; width="1440"; height="470"; class="footer"; loading="lazy"></iframe>
 </div>
-    <script src="Users/clement/Desktop/HTML/Mon site/Websites/Site web template/App React/APP/script.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 </body>
