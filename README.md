@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nectar Concept</title>
+    <title>www.nectarconcept.fr</title>
     <link href="/Users/clement/Desktop/HTML/Mon site/Websites/Site web template/App React/HOME/style.css" rel="stylesheet" type="text/css"/>
     <link href="/Users/clement/Desktop/HOME/style.css" rel="stylesheet" type="text/css"/>
     <import href="red-deadpool/style.css"></import>
@@ -73,7 +73,6 @@
             <input class="styled" type="button" value="Devis" />
             <input class="styled2" type="button" value="Nous contacter" />
             <br>
-             
         </tr>
     </table>
     <br>
@@ -91,7 +90,6 @@
             <td><img src="/Users/clement/Desktop/HTML/Mon site/Websites/Site web template/App React/1_X6MdPvKC_JnapInkGYObdQ.gif"></td>
         </tr>
     </table>
-
     <table>
         <tr>
             <td><img src="/Users/clement/Desktop/HTML/Mon site/Websites/Site web template/App React/0_F3Gi5iXlor4CCInA.gif"></td>
@@ -305,10 +303,8 @@
     <table>
         <tr>
             <td>
-            
         </td>
             <td></td>
-            
         </tr>
     </table>
 <div id="solutions"></div>       
@@ -323,7 +319,6 @@
 <br>
 <table>
         <tr>
-             
             <td><h3>Startups, indépendants & TPE</h3>
             <br>
             <p>Avec l'aide de Nectar, des start-up  et TPE ambitieuses parties de rien ont atteint leur pic de croissance. 
