@@ -4,10 +4,506 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>www.nectarconcept.fr</title>
-    <link href="/Users/clement/Desktop/HTML/Mon site/Websites/Site web template/App React/HOME/style.css" rel="stylesheet" type="text/css"/>
-    <link href="/Users/clement/Desktop/HOME/style.css" rel="stylesheet" type="text/css"/>
-    <import href="red-deadpool/style.css"></import>
-    <link href="red-deadpool/style.css"rel="stylesheet" type="text/css"/>
+    <link href="Users/clement/Desktop/HTML/Mon site/Websites/Site web template/App React/HOME/style.css" rel="stylesheet" type="text/css"/>
+    <link href="Users/clement/Desktop/HOME/style.css" rel="stylesheet" type="text/css"/>
+<style>
+    body {
+    background-color: black
+    }
+
+h1 {
+    color: #F25774;
+    font: 4.8rem "Stara", sans-serif;
+    margin-left: 20px;
+    font-weight: bolder;
+    }
+
+h3 {
+    color: #FFFFFF;
+    font: 2rem "Stara", sans-serif;
+    margin-left: 20px;
+    font-weight: bold;
+    }
+
+h4 {
+    color: #FFFFFF;
+    font: 1.6rem "Stara", sans-serif;
+    margin-left: 20px;
+    }
+
+
+p {
+    color: white;
+    font: 1rem "Stara", sans-serif;
+    margin-left: 20px;
+    }
+
+h6 {
+    color: rgb(121,121,244);
+    font: 1.5rem "Stara", sans-serif;
+    margin-left: 20px;
+    }
+
+.box20 {
+    font: 1rem "Stara", sans-serif;
+    align-self: center;
+    text-align: center;
+    color: white
+    }
+
+.box21 {
+    font: 1rem "Stara", sans-serif;
+    align-self: center;
+    text-align: center;
+    color: white
+    }
+
+.topnav {
+    background-color: black;
+    overflow: hidden;
+    margin-right: 20px;
+    align-self: right;
+    position: right;
+    border-radius: 5%;
+    font: 1rem "Stara", sans-serif;
+    margin-right: 100px;
+    }
+  
+.topnav a {
+    float: right;
+    color: #FFFFFF;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 5%;
+    font: 1rem "Stara", sans-serif;
+    }
+  
+  .topnav a:hover {
+    background-color: #ffffff;
+    color: #090909;
+    border-radius: 5%;
+    font: 1rem "Stara", sans-serif;
+    transition: 1s ease;
+  }
+  
+  .topnav a.active {
+    background-color: black;
+    color: #F25774;
+    font: 1rem "Stara", sans-serif;
+  }
+
+img {
+    align-self: auto;
+    width: 600px;
+    height: auto;
+    border-radius: 5%;
+    object-fit: cover;
+}
+
+object {
+    object-fit: contain;
+    width: 800px;
+    height: auto;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-spacing: 4.8rem 10px;
+    border: 3px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    }
+
+.footer {
+    border: none;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Stara');
+
+body{
+	font-family: 'Stara', sans-serif;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+i {
+	margin-right: 10px;
+}
+
+.navbar-logo{
+	padding: 15px;
+	color: #fff;
+}
+.navbar-mainbg{
+	background-color: rgb(121,121,244);
+	padding: 0px;
+}
+#navbarSupportedContent{
+	overflow: hidden;
+	position: relative;
+}
+#navbarSupportedContent ul{
+	padding: 0px;
+	margin: 0px;
+}
+#navbarSupportedContent ul li a i{
+	margin-right: 10px;
+}
+#navbarSupportedContent li {
+	list-style-type: none;
+	float: left;
+}
+#navbarSupportedContent ul li a{
+	color: rgba(255,255,255,0.5);
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+    padding: 20px 20px;
+    transition-duration:0.6s;
+	transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    position: relative;
+}
+#navbarSupportedContent>ul>li.active>a{
+	color: rgb(121,121,244);
+	background-color: transparent;
+	transition: all 0.7s;
+}
+#navbarSupportedContent a:not(:only-child):after {
+	content: "\f105";
+	position: absolute;
+	right: 20px;
+	top: 10px;
+	font-size: 14px;
+	font-family: "Font Awesome 5 Free";
+	display: inline-block;
+	padding-right: 3px;
+	vertical-align: middle;
+	font-weight: 900;
+	transition: 0.5s;
+}
+#navbarSupportedContent .active>a:not(:only-child):after {
+	transform: rotate(90deg);
+}
+.hori-selector{
+	display:inline-block;
+	position:absolute;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	transition-duration:0.6s;
+	transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	background-color: #fff;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	margin-top: 10px;
+}
+.hori-selector .right,
+.hori-selector .left{
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	background-color: #fff;
+	bottom: 10px;
+}
+.hori-selector .right{
+	right: -25px;
+}
+.hori-selector .left{
+	left: -25px;
+}
+.hori-selector .right:before,
+.hori-selector .left:before{
+	content: '';
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(121,121,244);
+}
+.hori-selector .right:before{
+	bottom: 0;
+    right: -25px;
+}
+.hori-selector .left:before{
+	bottom: 0;
+    left: -25px;
+}
+
+
+@media(min-width: 992px){
+	.navbar-expand-custom {
+	    -ms-flex-flow: row nowrap;
+	    flex-flow: row nowrap;
+	    -ms-flex-pack: start;
+	    justify-content: flex-start;
+	}
+	.navbar-expand-custom .navbar-nav {
+	    -ms-flex-direction: row;
+	    flex-direction: row;
+	}
+	.navbar-expand-custom .navbar-toggler {
+	    display: none;
+	}
+	.navbar-expand-custom .navbar-collapse {
+	    display: -ms-flexbox!important;
+	    display: flex!important;
+	    -ms-flex-preferred-size: auto;
+	    flex-basis: auto;
+	}
+}
+
+.audit {
+    color: #FFFFFF;
+    font: 1.6rem "Stara", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    border-color: #FFFFFF;
+    border-radius: 20px;
+    border: solid;
+    border-width: 1px;
+    padding : 30px;
+}
+
+.marketing {
+    color: #FFFFFF;
+    font: 1.6rem "Stara", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    border-color: #FFFFFF;
+    border-radius: 20px;
+    border: solid;
+    border-width: 1px;
+    padding : 30px;
+}
+
+.site {
+    color: #FFFFFF;
+    font: 1.6rem "Stara", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    border-color: #FFFFFF;
+    border-radius: 20px;
+    border: solid;
+    border-width: 1px;
+    padding : 30px;
+}
+
+.interface {
+    color: #FFFFFF;
+    font: 1.6rem "Stara", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    border-color: #FFFFFF;
+    border-radius: 20px;
+    border: solid;
+    border-width: 1px;
+    padding : 30px;
+}
+
+.referencement {
+    color: #FFFFFF;
+    font: 1.6rem "Stara", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    border-color: #FFFFFF;
+    border-radius: 20px;
+    border: solid;
+    border-width: 1px;
+    padding : 30px;
+}
+
+.lancement {
+    color: #FFFFFF;
+    font: 1.6rem "Stara", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    border-color: #FFFFFF;
+    border-radius: 20px;
+    border: solid;
+    border-width: 1px;
+    padding : 30px;
+}
+
+.allie {
+    color: #FFFFFF;
+    font: 1.6rem "Stara", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    border-color: #FFFFFF;
+    border-radius: 20px;
+    border: solid;
+    border-width: 1px;
+    padding : 30px;
+}
+
+.styled {
+    border: 0.1;
+    border-color: #ffffff;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #7a7a7a;
+    border-radius: 30px;
+    background-color: black;
+    margin-left: 20px;
+  }
+  
+  .styled:hover {
+    border-color: rgb(121,121,244);
+    color: rgb(121,121,244);
+    font-size: 0.9rem;
+    transition: 0.2s ease;
+  }
+  
+  .styled:active {
+    box-shadow:
+      inset: #F25774;
+      inset 2px 2px 3px #F25774;
+  }
+
+  .styled2 {
+    border: 0.1;
+    border-color: #ffffff;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #7a7a7a;
+    border-radius: 30px;
+    background-color: black;
+    margin-left: 15px;
+  }
+  
+  .styled2:hover {
+    border-color: rgb(121,121,244);
+    color: rgb(121,121,244);
+    font-size: 0.9rem;
+    transition: 0.2s ease;
+  }
+  
+  .styled2:active {
+    box-shadow:
+      inset: #F25774
+      inset 2px 2px 3px #F25774;
+  }
+
+span {
+    display: inline-block;
+    background: linear-gradient(to left, #F25774, rgb(121,121,244));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 20px;
+    font-size: 50px;
+    font: "Stara", sans-serif;
+}
+
+video {
+	max-width: 100%;
+	height: auto;
+    align-self : center;
+    position: relative;
+    border: none;
+    background-color: black;
+}
+
+.starter {
+    color: white;
+    font: 1.6rem "Stara", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    border-color: none;
+    background-color: #0c0c0c;
+    border-radius: 20px;
+    border: solid;
+    border-width: 0px;
+    padding : 30px;
+}
+
+.flex {
+    color: white;
+    font: 1.6rem "Stara", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    border-color: none;
+    background-color: #0c0c0c;
+    border-radius: 20px;
+    border: solid;
+    border-width: 0px;
+    padding : 30px;
+}
+
+.full {
+    color:white;
+    font: 1.6rem "Stara", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    border-color: none;
+    background-color: #0c0c0c;
+    border-radius: 20px;
+    border: solid;
+    border-width: 0px;
+    padding : 30px;
+}
+
+.adefinir {
+    color: white;
+    font: 1.6rem "Stara", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    border-color: none;
+    background-color: #0c0c0c;
+    border-radius: 20px;
+    border: solid;
+    border-width: 0px;
+    padding : 30px;
+}
+
+h5 {
+    color: white;
+    font: 1rem "Stara", sans-serif;
+    margin-left: 20px;
+    }
+
+.space {
+    height: 100vh;
+}
+
+li {
+    color: white;
+    font: 1rem "Stara", sans-serif;
+    margin-left: 20px;
+    list-style-type: "\1F44D";
+    }
+
+ul {
+    color: white;
+    font: 1rem "Stara", sans-serif;
+    margin-left: 20px;
+    list-style-type: "\1F44D";
+    }
+</style>
+    
 </head>
 <body>
     <div class="topnav">
@@ -21,7 +517,7 @@
     <br>
     <div id="accueil">
         <div class="video">
-            <video preload="auto" autoplay muted loop src="/Users/clement/Desktop/HTML/Mon site/Websites/Site web template/Final teaser.mp4" type="video"></video>
+            <video preload="auto" autoplay muted loop src="Users/clement/Desktop/HTML/Mon site/Websites/Site web template/Final teaser.mp4" type="video"></video>
         </div>
     </div>
     <br>
@@ -61,7 +557,7 @@
     <br>
     <table>
         <tr>
-            <td><div class="object"><img src="/Users/clement/Desktop/HTML/Mon site/Websites/Site web template/App React/React.Js.png"></div></td>
+            <td><div class="object"><img src="Users/clement/Desktop/HTML/Mon site/Websites/Site web template/App React/React.Js.png"></div></td>
             <td>
             <h3>Le design next generation</h3>
             <br>
@@ -87,12 +583,12 @@
             mettre à niveau vos systèmes et outils existants,proposer vos produits et services directement aux
             consommateurs,simplifier votre tunnel de vente en ligne et créer des visuels uniques. Bénéficiez des conseils
             de notre équipe,des services aux entreprises et de nos partenaires pour tirer plus rapidement profit de votre solution Nectar.</p></td>
-            <td><img src="/Users/clement/Desktop/HTML/Mon site/Websites/Site web template/App React/1_X6MdPvKC_JnapInkGYObdQ.gif"></td>
+            <td><img src="Users/clement/Desktop/HTML/Mon site/Websites/Site web template/App React/1_X6MdPvKC_JnapInkGYObdQ.gif"></td>
         </tr>
     </table>
     <table>
         <tr>
-            <td><img src="/Users/clement/Desktop/HTML/Mon site/Websites/Site web template/App React/0_F3Gi5iXlor4CCInA.gif"></td>
+            <td><img src="Users/clement/Desktop/HTML/Mon site/Websites/Site web template/App React/0_F3Gi5iXlor4CCInA.gif"></td>
             <td><h3>Favorisez l'agilité de votre entreprise</h3>
             <br>
             <p>Vous pouvez utiliser Nectar pour changer d'interface web, mais aussi pour optimiser vos processus de vente, mettre à
@@ -110,14 +606,14 @@
             <p>Les start-up font confiance à Nectar pour se lancer plus rapidement, évoluer plus facilement, faciliter le parcours
             de leurs clients et construire des outils simples à prendre en main afin de faire mieux avec moins. Utilisez nos solutions 
             sans code ou nécessitant peu de code, faciles à implémenter et suffisamment puissantes pour s'adapter parfaitement à vos besoins.</p></td>
-            <td><img src="/Users/clement/Desktop/HTML/Mon site/Websites/Site web template/App React/1_9PB6ooej_LyIEFHOe8dMbg.gif"></td> 
+            <td><img src="Users/clement/Desktop/HTML/Mon site/Websites/Site web template/App React/1_9PB6ooej_LyIEFHOe8dMbg.gif"></td> 
         </tr>
     </table>
 <br>
 <br>
     <table>
         <tr>
-            <td><img src="/Users/clement/Desktop/HTML/Mon site/Websites/Site web template/App React/1_l07nC0xwRXzmIZFsKpbxyQ.gif"></td>
+            <td><img src="Users/clement/Desktop/HTML/Mon site/Websites/Site web template/App React/1_l07nC0xwRXzmIZFsKpbxyQ.gif"></td>
             <td><h3>Vous disposez de tout, à portée de main</h3>
             <br>
             <p>Nous designons votre site web et plus largement vos interfaces, de façon à ce que vous viviez une expérience unique lors de votre navigation.
@@ -261,8 +757,8 @@
                 <br>
                 <br>
                 <br>
-                <video width="960" height="540" controls poster="/Users/clement/Desktop/HOME/Capture d’écran 2024-03-15 à 14.35.21.png">
-                <source src="/Users/clement/Desktop/HOME/Design sans titre.mp4" type=video/mp4>
+                <video width="960" height="540" controls poster="Users/clement/Desktop/HOME/Capture d’écran 2024-03-15 à 14.35.21.png">
+                <source src="https://github.com/nectar-concept/nectar-concept.github.io/blob/main/Design%20sans%20titre.mp4" type=video/mp4>
             </td>
                     <td>
                         <br>
@@ -277,8 +773,8 @@
                         <br>
                         <br>
                         <br>
-                    <video width="960" height="540" controls poster="/Users/clement/Desktop/HOME/Capture d’écran 2024-03-15 à 14.34.10.png">
-                    <source src="/Users/clement/Desktop/HOME/zenly.mp4" type=video/mp4>
+                    <video width="960" height="540" controls poster="Users/clement/Desktop/HOME/Capture d’écran 2024-03-15 à 14.34.10.png">
+                    <source src="https://github.com/nectar-concept/nectar-concept.github.io/blob/main/zenly.mp4" type=video/mp4>
                 </td>
             </div>
         </tr>
@@ -286,12 +782,12 @@
     <table>
         <tr>
             <td>
-                <video width="960" height="540" controls poster="/Users/clement/Desktop/HOME/Capture d’écran 2024-03-15 à 14.33.00.png">
-                <source src="/Users/clement/Desktop/HOME/Landscapes.mp4" type=video/mp4>
+                <video width="960" height="540" controls poster="Users/clement/Desktop/HOME/Capture d’écran 2024-03-15 à 14.33.00.png">
+                <source src="https://github.com/nectar-concept/nectar-concept.github.io/blob/main/Landscapes.mp4" type=video/mp4>
             </td>
             <td>
                 <video width="960" height="540" controls poster="/Users/clement/Desktop/HOME/Capture d’écran 2024-03-15 à 14.32.35.png">
-                <source src="/Users/clement/Desktop/HOME/oriental.mp4" type=video/mp4>
+                <source src="https://github.com/nectar-concept/nectar-concept.github.io/blob/main/oriental.mp4" type=video/mp4>
             </td>
             </div>
         </tr>
@@ -348,9 +844,9 @@
     </table>
     <table>
         <tr>
-            <td><img src="/Users/clement/Desktop/HTML/Mon site/Websites/Site web template/App React/Design sans titre.png"></td>
+            <td><img src="Users/clement/Desktop/HTML/Mon site/Websites/Site web template/App React/Design sans titre.png"></td>
             <br>
-            <td><img src="/Users/clement/Desktop/HTML/Mon site/Websites/Site web template/App React/Design sans titre1.png"></td>
+            <td><img src="Users/clement/Desktop/HTML/Mon site/Websites/Site web template/App React/Design sans titre1.png"></td>
         </tr>
     </table>
 <br>
@@ -471,9 +967,9 @@
 <br>
 <b>
 <div id="contact"></div>
-    <iframe src="/Users/clement/Desktop/HOME/Footer.html" title="footer"; width="1440"; height="470"; class="footer"; loading="lazy"></iframe>
+    <iframe src="https://github.com/nectar-concept/nectar-concept.github.io/blob/main/Footer.html" title="footer"; width="1440"; height="470"; class="footer"; loading="lazy"></iframe>
 </div>
-    <script src="/Users/clement/Desktop/HTML/Mon site/Websites/Site web template/App React/APP/script.js"></script>
+    <script src="Users/clement/Desktop/HTML/Mon site/Websites/Site web template/App React/APP/script.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 </body>
