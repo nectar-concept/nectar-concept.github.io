@@ -517,7 +517,7 @@ ul {
     <br>
     <div id="accueil">
         <div class="video">
-            <video preload="auto" autoplay muted loop src="https://github.com/nectar-concept/nectar-concept.github.io/blob/main/Se%CC%81quence%2003%2012.17.35.mp4" type="video"></video>
+            <video preload="auto" autoplay muted loop src="Final teaser.mp4" type="video"></video>
         </div>
     </div>
     <br>
@@ -557,7 +557,7 @@ ul {
     <br>
     <table>
         <tr>
-            <td><div class="object"><img src="https://github.com/nectar-concept/nectar-concept.github.io/blob/main/Capture%20d%E2%80%99e%CC%81cran%202024-03-11%20a%CC%80%2011.59.59.png"></div></td>
+            <td><div class="object"><img src="Capture d’écran 2024-03-11 à 11.59.59.png"></div></td>
             <td>
             <h3>Le design next generation</h3>
             <br>
@@ -583,12 +583,12 @@ ul {
             mettre à niveau vos systèmes et outils existants,proposer vos produits et services directement aux
             consommateurs,simplifier votre tunnel de vente en ligne et créer des visuels uniques. Bénéficiez des conseils
             de notre équipe,des services aux entreprises et de nos partenaires pour tirer plus rapidement profit de votre solution Nectar.</p></td>
-            <td><img src="Users/clement/Desktop/HTML/Mon site/Websites/Site web template/App React/1_X6MdPvKC_JnapInkGYObdQ.gif"></td>
+            <td><img src="0_F3Gi5iXlor4CCInA.gif"></td>
         </tr>
     </table>
     <table>
         <tr>
-            <td><img src="Users/clement/Desktop/HTML/Mon site/Websites/Site web template/App React/0_F3Gi5iXlor4CCInA.gif"></td>
+            <td><img src="1_X6MdPvKC_JnapInkGYObdQ.gif"></td>
             <td><h3>Favorisez l'agilité de votre entreprise</h3>
             <br>
             <p>Vous pouvez utiliser Nectar pour changer d'interface web, mais aussi pour optimiser vos processus de vente, mettre à
@@ -606,14 +606,14 @@ ul {
             <p>Les start-up font confiance à Nectar pour se lancer plus rapidement, évoluer plus facilement, faciliter le parcours
             de leurs clients et construire des outils simples à prendre en main afin de faire mieux avec moins. Utilisez nos solutions 
             sans code ou nécessitant peu de code, faciles à implémenter et suffisamment puissantes pour s'adapter parfaitement à vos besoins.</p></td>
-            <td><img src="Users/clement/Desktop/HTML/Mon site/Websites/Site web template/App React/1_9PB6ooej_LyIEFHOe8dMbg.gif"></td> 
+            <td><img src="1_kElFA8HLLSfKS8W2QJyrbQ.gif"></td> 
         </tr>
     </table>
 <br>
 <br>
     <table>
         <tr>
-            <td><img src="Users/clement/Desktop/HTML/Mon site/Websites/Site web template/App React/1_l07nC0xwRXzmIZFsKpbxyQ.gif"></td>
+            <td><img src="submit-new2-1439041881__1_.gif"></td>
             <td><h3>Vous disposez de tout, à portée de main</h3>
             <br>
             <p>Nous designons votre site web et plus largement vos interfaces, de façon à ce que vous viviez une expérience unique lors de votre navigation.
@@ -757,8 +757,8 @@ ul {
                 <br>
                 <br>
                 <br>
-                <video width="960" height="540" controls poster="https://github.com/nectar-concept/nectar-concept.github.io/blob/main/Capture%20d%E2%80%99e%CC%81cran%202024-03-15%20a%CC%80%2014.35.21.png">
-                <source src="https://github.com/nectar-concept/nectar-concept.github.io/blob/main/Design%20sans%20titre.mp4" type=video/mp4>
+                <video width="960" height="540" controls poster="Capture d’écran 2024-03-15 à 14.35.21.png">
+                <source src="Design sans titre.mp4" type=video/mp4>
             </td>
                     <td>
                         <br>
@@ -773,8 +773,8 @@ ul {
                         <br>
                         <br>
                         <br>
-                    <video width="960" height="540" controls poster="https://github.com/nectar-concept/nectar-concept.github.io/blob/main/Capture%20d%E2%80%99e%CC%81cran%202024-03-15%20a%CC%80%2006.55.37.png">
-                    <source src="https://github.com/nectar-concept/nectar-concept.github.io/blob/main/zenly.mp4" type=video/mp4>
+                    <video width="960" height="540" controls poster="Zenly.png">
+                    <source src="zenly.mp4" type=video/mp4>
                 </td>
             </div>
         </tr>
@@ -782,12 +782,12 @@ ul {
     <table>
         <tr>
             <td>
-                <video width="960" height="540" controls poster="https://github.com/nectar-concept/nectar-concept.github.io/blob/main/Capture%20d%E2%80%99e%CC%81cran%202024-03-15%20a%CC%80%2014.33.00.png">
-                <source src="https://github.com/nectar-concept/nectar-concept.github.io/blob/main/Landscapes.mp4" type=video/mp4>
+                <video width="960" height="540" controls poster="Capture d’écran 2024-03-15 à 14.33.00.png">
+                <source src="Landscapes.mp4" type=video/mp4>
             </td>
             <td>
-                <video width="960" height="540" controls poster="https://github.com/nectar-concept/nectar-concept.github.io/blob/main/Capture%20d%E2%80%99e%CC%81cran%202024-03-15%20a%CC%80%2014.32.35.png">
-                <source src="https://github.com/nectar-concept/nectar-concept.github.io/blob/main/oriental.mp4" type=video/mp4>
+                <video width="960" height="540" controls poster="Capture d’écran 2024-03-15 à 14.32.35.png">
+                <source src="oriental.mp4" type=video/mp4>
             </td>
             </div>
         </tr>
@@ -844,9 +844,9 @@ ul {
     </table>
     <table>
         <tr>
-            <td><img src="Users/clement/Desktop/HTML/Mon site/Websites/Site web template/App React/Design sans titre.png"></td>
+            <td><img src="Design sans titre 06.52.34.png"></td>
             <br>
-            <td></td>
+            <td><img src="Design sans titre.png"></td>
         </tr>
     </table>
 <br>
@@ -967,7 +967,7 @@ ul {
 <br>
 <b>
 <div id="contact"></div>
-    <iframe src="https://github.com/nectar-concept/nectar-concept.github.io/blob/main/Footer.html" title="footer"; width="1440"; height="470"; class="footer"; loading="lazy"></iframe>
+    <iframe src="Footer.html" title="footer"; width="1440"; height="470"; class="footer"; loading="lazy"></iframe>
 </div>
     <script src="Users/clement/Desktop/HTML/Mon site/Websites/Site web template/App React/APP/script.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
