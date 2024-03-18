@@ -501,6 +501,7 @@ ul {
     margin-left: 20px;
     list-style-type: "\1F44D";
     }
+	
 .collapse {
   &:not(.show) {
     display: none;
@@ -514,6 +515,8 @@ ul {
 
   &.collapse-horizontal {
     width: 0;
+    border: 1px white;
+    background: none;
     height: auto;
     @include transition($transition-collapse-width);
   }
