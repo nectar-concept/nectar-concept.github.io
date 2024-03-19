@@ -12,7 +12,7 @@
 
 <style>
 
-@media handheld and (max-width: 375px) {
+@media all and (max-width: 375px) {
 #mobile {display: block};
 #laptop {display: none};
 
@@ -80,8 +80,14 @@ display: none;
 iframe {
 display: none;
 }
+}
+}
 	
-@media screen and (min-width: 376px) {
+@media all and (min-width: 376px) {
+#mobile {display: none};
+#laptop {display: block};
+
+#laptop {
 
 body {
     background-color: black;
