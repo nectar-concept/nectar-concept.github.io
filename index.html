@@ -486,7 +486,12 @@ ul {
 </head>
 <body>
 
-@media handheld and (max-width: 375px) {
+@media all and (max-width: 375px) {
+#mobile {display: block);
+#laptop {display: none);
+}
+
+#mobile {
 	
     <div class="topnav">
         <a href="contact">Contact</a>
@@ -897,6 +902,11 @@ ul {
 
 	
 @media screen and (min-width: 376px) {
+
+#mobile {display: none};
+laptop {display: block};
+
+#laptop {
 	
     <div class="topnav">
         <a href="contact">Contact</a>
@@ -1294,6 +1304,7 @@ ul {
     <iframe src="Footer.html" title="footer"; width="1440"; height="470"; class="footer"; loading="lazy"></iframe>
 </div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+}
 }
 
 
