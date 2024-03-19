@@ -210,6 +210,412 @@ ul {
 
 #laptop {
 
+body {
+    background-color: black;
+	width: 100%;
+    }
+
+h1 {
+    color: #F25774;
+    font: 4.8rem "Stara", sans-serif;
+    margin-left: 10px;
+    font-weight: bolder;
+    }
+
+h3 {
+    color: white;
+    font: 2rem "Stara", sans-serif;
+    margin-left: 10px;
+    font-weight: bold;
+    }
+
+h4 {
+    color: white;
+    font: 1.6rem "Stara", sans-serif;
+    margin-left: 10px;
+    }
+
+
+p {
+    color: white;
+    font: 1rem "Stara", sans-serif;
+    margin-left: 10px;
+    }
+
+h6 {
+    color: rgb(121,121,244);
+    font: 1.5rem "Stara", sans-serif;
+    margin-left: 10px;
+    }
+
+.box20 {
+    font: 1rem "Stara", sans-serif;
+    align-self: center;
+    text-align: center;
+    color: white
+    }
+
+.box21 {
+    font: 1rem "Stara", sans-serif;
+    align-self: center;
+    text-align: center;
+    color: white
+    }
+
+.topnav {
+    background-color: black;
+    overflow: hidden;
+	width: 100%;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    margin-right: 20px;
+    align-self: right;
+    position: right;
+    border-radius: 5%;
+    font: 1rem "Stara", sans-serif;
+    margin-right: 100px;
+    }
+  
+.topnav a {
+    float: right;
+    color: #FFFFFF;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 5%;
+    font: 1rem "Stara", sans-serif;
+    }
+  
+  .topnav a:hover {
+    background-color: #ffffff;
+    color: #090909;
+    border-radius: 5%;
+    font: 1rem "Stara", sans-serif;
+    transition: 1s ease;
+  }
+  
+  .topnav a.active {
+    background-color: black;
+    color: #F25774;
+    font: 1rem "Stara", sans-serif;
+  }
+
+img {
+align-self: auto;
+width: 350px;
+height: auto;
+border-radius: 0%;
+border: white 1px;
+object-fit: cover;
+margin: 10px;
+}
+
+object {
+    object-fit: contain;
+    width: 350px;
+    height: auto;
+    
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-spacing: 4.8rem 10px;
+    border: 3px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    }
+
+.footer {
+    border: none;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Stara');
+
+body{
+	font-family: 'Stara', sans-serif;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+i {
+	margin-right: 10px;
+}
+
+.navbar-logo{
+	padding: 15px;
+	color: #fff;
+}
+.navbar-mainbg{
+	background-color: rgb(121,121,244);
+	padding: 0px;
+}
+#navbarSupportedContent{
+	overflow: hidden;
+	position: relative;
+}
+#navbarSupportedContent ul{
+	padding: 0px;
+	margin: 0px;
+}
+#navbarSupportedContent ul li a i{
+	margin-right: 10px;
+}
+#navbarSupportedContent li {
+	list-style-type: none;
+	float: left;
+}
+#navbarSupportedContent ul li a{
+	color: rgba(255,255,255,0.5);
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+    padding: 20px 20px;
+    transition-duration:0.6s;
+	transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    position: relative;
+}
+#navbarSupportedContent>ul>li.active>a{
+	color: rgb(121,121,244);
+	background-color: transparent;
+	transition: all 0.7s;
+}
+#navbarSupportedContent a:not(:only-child):after {
+	content: "\f105";
+	position: absolute;
+	right: 20px;
+	top: 10px;
+	font-size: 14px;
+	font-family: "Font Awesome 5 Free";
+	display: inline-block;
+	padding-right: 3px;
+	vertical-align: middle;
+	font-weight: 900;
+	transition: 0.5s;
+}
+#navbarSupportedContent .active>a:not(:only-child):after {
+	transform: rotate(90deg);
+}
+.hori-selector{
+	display:inline-block;
+	position:absolute;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	transition-duration:0.6s;
+	transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	background-color: #fff;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	margin-top: 10px;
+}
+.hori-selector .right,
+.hori-selector .left{
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	background-color: #fff;
+	bottom: 10px;
+}
+.hori-selector .right{
+	right: -25px;
+}
+.hori-selector .left{
+	left: -25px;
+}
+.hori-selector .right:before,
+.hori-selector .left:before{
+	content: '';
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(121,121,244);
+}
+.hori-selector .right:before{
+	bottom: 0;
+    right: -25px;
+}
+.hori-selector .left:before{
+	bottom: 0;
+    left: -25px;
+}
+
+
+@media(min-width: 992px){
+	.navbar-expand-custom {
+	    -ms-flex-flow: row nowrap;
+	    flex-flow: row nowrap;
+	    -ms-flex-pack: start;
+	    justify-content: flex-start;
+	}
+	.navbar-expand-custom .navbar-nav {
+	    -ms-flex-direction: row;
+	    flex-direction: row;
+	}
+	.navbar-expand-custom .navbar-toggler {
+	    display: none;
+	}
+	.navbar-expand-custom .navbar-collapse {
+	    display: -ms-flexbox!important;
+	    display: flex!important;
+	    -ms-flex-preferred-size: auto;
+	    flex-basis: auto;
+	}
+
+.styled {
+    border: 0.1;
+    border-color: #ffffff;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #7a7a7a;
+    border-radius: 30px;
+    background-color: black;
+    margin-left: 20px;
+  }
+  
+  .styled:hover {
+    border-color: rgb(121,121,244);
+    color: rgb(121,121,244);
+    font-size: 0.9rem;
+    transition: 0.2s ease;
+  }
+  
+  .styled:active {
+    box-shadow:
+      inset: #F25774;
+      inset 2px 2px 3px #F25774;
+  }
+
+  .styled2 {
+    border: 0.1;
+    border-color: #ffffff;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #7a7a7a;
+    border-radius: 30px;
+    background-color: black;
+    margin-left: 15px;
+  }
+  
+  .styled2:hover {
+    border-color: rgb(121,121,244);
+    color: rgb(121,121,244);
+    font-size: 0.9rem;
+    transition: 0.2s ease;
+  }
+  
+  .styled2:active {
+    box-shadow:
+      inset: #F25774
+      inset 2px 2px 3px #F25774;
+  }
+
+video {
+	
+width: 350px;
+height: auto;
+align-self: center;
+border: none;
+background-color: black;
+}
+
+.starter {
+    color: white;
+    font: 1.6rem "Stara", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    border-color: none;
+    background-color: #0c0c0c;
+    border-radius: 20px;
+    border: solid;
+    border-width: 0px;
+    padding : 30px;
+}
+
+.flex {
+    color: white;
+    font: 1.6rem "Stara", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    border-color: none;
+    background-color: #0c0c0c;
+    border-radius: 20px;
+    border: solid;
+    border-width: 0px;
+    padding : 30px;
+}
+
+.full {
+    color:white;
+    font: 1.6rem "Stara", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    border-color: none;
+    background-color: #0c0c0c;
+    border-radius: 20px;
+    border: solid;
+    border-width: 0px;
+    padding : 30px;
+}
+
+.adefinir {
+    color: white;
+    font: 1.6rem "Stara", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    border-color: none;
+    background-color: #0c0c0c;
+    border-radius: 20px;
+    border: solid;
+    border-width: 0px;
+    padding : 30px;
+}
+
+h5 {
+    color: white;
+    font: 1rem "Stara", sans-serif;
+    margin-left: 20px;
+    }
+
+.space {
+    height: 100vh;
+}
+
+li {
+    color: white;
+    font: 1rem "Stara", sans-serif;
+    margin-left: 20px;
+    list-style-type: "\1F44D";
+    }
+
+ul {
+    color: white;
+    font: 1rem "Stara", sans-serif;
+    margin-left: 20px;
+    list-style-type: "\1F44D";
+    }
+}
+}
+</style>
+</head>
+<body>
+
     <div class="topnav">
         <a href="contact">Contact</a>
         <a href="devis">Devis</a>
